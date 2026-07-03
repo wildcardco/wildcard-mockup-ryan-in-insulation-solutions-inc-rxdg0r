@@ -217,6 +217,18 @@
     font-size:.85rem;
     color:#e6c8d4;
   }
+  .hero-image{
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    border:1px solid rgba(255,255,255,.25);
+  }
+  .hero-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    min-height:280px;
+  }
 
   /* Sections */
   section{padding:4rem 0;}
@@ -253,6 +265,13 @@
     transform:translateY(-4px);
     box-shadow:var(--shadow);
   }
+  .service-photo{
+    width:calc(100% + 3.5rem);
+    margin:-1.75rem -1.75rem 1.25rem;
+    height:150px;
+    object-fit:cover;
+    border-radius:var(--radius) var(--radius) 0 0;
+  }
   .service-icon{
     width:46px;height:46px;
     margin-bottom:1rem;
@@ -274,6 +293,17 @@
     gap:2.5rem;
     grid-template-columns:1fr;
     align-items:start;
+  }
+  .about-image{
+    border-radius:var(--radius);
+    overflow:hidden;
+    margin-bottom:1.5rem;
+    box-shadow:0 4px 14px -8px rgba(31,10,20,.25);
+  }
+  .about-image img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
   }
   .about-list{
     list-style:none;
@@ -510,6 +540,9 @@
           </div>
         </div>
       </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1768321917437-1f1f6ae2ad28?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Remediation technician working safely on-site">
+      </div>
     </div>
   </section>
 
@@ -522,21 +555,25 @@
       </div>
       <div class="services-grid">
         <article class="service-card">
+          <img class="service-photo" src="https://images.unsplash.com/photo-1768321916128-c242ca443253?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Asbestos abatement work in progress">
           <svg class="service-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20h16M6 20V9a2 2 0 012-2h8a2 2 0 012 2v11M9 20v-4h6v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 12h6M9 8h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           <h3>Asbestos Abatement</h3>
           <p>Safe, affordable removal and disposal of asbestos-containing materials from residential and industrial properties, following strict safety protocols.</p>
         </article>
         <article class="service-card">
+          <img class="service-photo" src="https://images.unsplash.com/photo-1768321910174-6f55899299a2?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Mold remediation crew inspecting a wall">
           <svg class="service-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 01-12 0c0-4.5 6-11 6-11z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
           <h3>Mold Remediation</h3>
           <p>Thorough mold identification and removal to restore healthy indoor air quality in homes, commercial buildings, and facilities.</p>
         </article>
         <article class="service-card">
+          <img class="service-photo" src="https://images.unsplash.com/photo-1753363562638-398f75158ea9?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Lead paint mitigation on an older building">
           <svg class="service-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Lead Mitigation &amp; Lead Paint Abatement</h3>
           <p>Careful containment and removal of lead-based paint and lead hazards to keep families, tenants, and workers safe.</p>
         </article>
         <article class="service-card">
+          <img class="service-photo" src="https://images.unsplash.com/photo-1674485190969-4347f72aad0e?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="Insulation contractor installing insulation">
           <svg class="service-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12l9-8 9 8M5 10v10h14V10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Insulation Contracting</h3>
           <p>Professional insulation installation for residential and industrial properties, improving energy efficiency and comfort.</p>
@@ -548,6 +585,9 @@
   <section id="about">
     <div class="container about-wrap">
       <div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1711375211760-117f793d1f15?fm=jpg&q=60&w=3000&auto=format&fit=crop" alt="In Insulation Solutions team on a job site">
+        </div>
         <span class="kicker">Why Property Owners Choose Us</span>
         <h2>Safety-Focused, Locally Rooted, Regionally Trusted</h2>
         <p>Based in Hammond, Indiana, In Insulation Solutions Inc has built a reputation on affordable hazardous material handling for homeowners, property managers, and industrial/commercial operators throughout Northwest Indiana and the greater Chicago metro area.</p>
