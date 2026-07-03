@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    {
+      "url": "https://images.unsplash.com/photo-1768321917437-1f1f6ae2ad28?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Wooden wall section with spray foam insulation"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1768321916128-c242ca443253?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Attic room under construction with exposed framing and insulation"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1768321910174-6f55899299a2?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Room under construction with exposed insulation and windows"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1753363562638-398f75158ea9?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Inside of an attic with insulation and wood beams"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1674485190969-4347f72aad0e?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Contractor in white coveralls spraying insulation on a wall"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1711375211760-117f793d1f15?fm=jpg&q=60&w=3000&auto=format&fit=crop",
+      "alt": "Worker installing insulation on an attic floor"
+    }
+  ],
+  "source": "ai_search"
+}
